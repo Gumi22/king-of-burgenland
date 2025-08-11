@@ -34,5 +34,4 @@ export default defineConfig({
       deny: ["**/.*"],
     },
   },
-  base: '/king-of-burgenland/',
 });
