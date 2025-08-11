@@ -195,7 +195,7 @@ export default function Home() {
                 className="bg-gradient-to-r from-royal-purple-500 to-royal-purple-700 hover:from-royal-purple-600 hover:to-royal-purple-800 px-8 py-4 rounded-full font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center space-x-2"
                 size="lg"
               >
-                <a href="king-of-burgenland/audio/test.mp3" download="König vom Burgenland - Artist Andrelele.mp3">
+                <a href="audio/test.mp3" download="König vom Burgenland - Artist Andrelele.mp3">
                   <Download className="w-5 h-5" />
                   <span>Direkt downloaden</span>
                 </a>
@@ -277,7 +277,7 @@ export default function Home() {
                   asChild
                   className="bg-gradient-to-r from-royal-green-400 to-royal-green-600 hover:from-royal-green-500 hover:to-royal-green-700 px-8 py-4 rounded-full font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
                 >
-                  <a href="king-of-burgenland/audio/test.mp3" download="König vom Burgenland - Artist Andrelele.mp3">
+                  <a href="audio/test.mp3" download="König vom Burgenland - Artist Andrelele.mp3">
                     <Music className="w-5 h-5" />
                     <span>MP3 (320kbps)</span>
                   </a>
@@ -286,7 +286,7 @@ export default function Home() {
                   asChild
                   className="bg-gradient-to-r from-royal-purple-500 to-royal-purple-700 hover:from-royal-purple-600 hover:to-royal-purple-800 px-8 py-4 rounded-full font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
                 >
-                  <a href="king-of-burgenland/audio/test.mp3" download="König vom Burgenland - Artist Andrelele - FLAC.mp3">
+                  <a href="audio/test.mp3" download="König vom Burgenland - Artist Andrelele - FLAC.mp3">
                     <Crown className="w-5 h-5" />
                     <span>FLAC (Lossless)</span>
                   </a>
