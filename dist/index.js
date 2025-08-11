@@ -47,7 +47,7 @@ var vite_config_default = defineConfig({
       deny: ["**/.*"]
     }
   },
-  base: "./"
+  base: "/king-of-burgenland/"
 });
 
 // server/vite.ts
