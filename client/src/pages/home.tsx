@@ -195,7 +195,7 @@ export default function Home() {
                 className="bg-gradient-to-r from-royal-purple-500 to-royal-purple-700 hover:from-royal-purple-600 hover:to-royal-purple-800 px-8 py-4 rounded-full font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center space-x-2"
                 size="lg"
               >
-                <a href="/audio/test.mp3" download="König vom Burgenland - Artist Andrelele.mp3">
+                <a href="${process.env.PUBLIC_URL}/audio/test.mp3" download="König vom Burgenland - Artist Andrelele.mp3">
                   <Download className="w-5 h-5" />
                   <span>Direkt downloaden</span>
                 </a>
