@@ -7,6 +7,7 @@ This is a music artist website for "König vom Burgenland" by Artist Andrelele, 
 Preferred communication style: Simple, everyday language.
 
 # System Architecture
+- **Static Web-Page**: Rendered as a simple Web-Page that doesn't need a backend server
 
 ## Frontend Architecture
 - **Framework**: React 18 with TypeScript and Vite for development and build tooling
@@ -16,19 +17,6 @@ Preferred communication style: Simple, everyday language.
 - **UI Components**: Radix UI primitives with custom styling for consistent design system
 - **Design System**: Component-based architecture using shadcn/ui with custom royal theme
 
-## Backend Architecture
-- **Server**: Express.js with TypeScript running on Node.js
-- **Database ORM**: Drizzle ORM for type-safe database operations
-- **Database**: PostgreSQL (configured for Neon serverless)
-- **Session Management**: Express sessions with PostgreSQL store (connect-pg-simple)
-- **API Structure**: RESTful API with /api prefix routing
-- **Development**: Hot reloading with Vite integration for seamless development experience
-
-## Database Schema
-- **Users Table**: Basic user management with id, username, and password fields
-- **Music Tracks Table**: Comprehensive music metadata including title, artist, duration, and multiple streaming platform URLs (SoundCloud, Spotify, Apple Music, YouTube)
-- **Schema Management**: Drizzle migrations with PostgreSQL-specific features like UUID generation
-
 ## Component Architecture
 - **UI Components**: Modular component system with reusable elements (buttons, cards, dialogs, etc.)
 - **Custom Components**: Specialized components like MusicPlayer and AchievementCard for domain-specific functionality
@@ -36,10 +24,6 @@ Preferred communication style: Simple, everyday language.
 - **Theme System**: CSS custom properties for consistent theming across components
 
 # External Dependencies
-
-## Database & Infrastructure
-- **Neon Database**: Serverless PostgreSQL hosting with connection pooling
-- **Drizzle Kit**: Database migrations and schema management tooling
 
 ## UI & Styling Libraries
 - **Radix UI**: Accessible component primitives for complex UI elements
@@ -58,9 +42,3 @@ Preferred communication style: Simple, everyday language.
 - **Wouter**: Lightweight routing solution
 - **Class Variance Authority**: Utility for creating variant-based component APIs
 - **Date-fns**: Date manipulation and formatting utilities
-
-## Backend Dependencies
-- **Express**: Web application framework with middleware support
-- **Connect PG Simple**: PostgreSQL session store for Express sessions
-- **ESBuild**: Fast JavaScript bundler for production builds
-- **TSX**: TypeScript execution environment for development
