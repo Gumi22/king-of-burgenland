@@ -65,7 +65,7 @@ export default function MusicPlayer() {
     <Card className="bg-black/50 backdrop-blur-lg rounded-2xl p-6 mb-8 max-w-md mx-auto border border-royal-gold/20">
       <audio 
         ref={audioRef} 
-        src="audio/test.mp3"
+        src="audio/kernoelbier.mp3"
         preload="metadata"
       />
       <div className="flex items-center space-x-4">

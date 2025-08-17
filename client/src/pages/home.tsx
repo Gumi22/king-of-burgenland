@@ -57,7 +57,7 @@ const streamingPlatforms = [
     icon: SiSoundcloud,
     color: "from-orange-500 to-orange-600",
     hoverColor: "hover:from-orange-600 hover:to-orange-700",
-    url: "#"
+    url: "https://soundcloud.com/andreas-foerster-140342719/kernoelbier"
   },
   {
     name: "Spotify",
@@ -185,7 +185,7 @@ export default function Home() {
                 className="bg-gradient-to-r from-royal-green-400 to-royal-green-600 hover:from-royal-green-500 hover:to-royal-green-700 px-8 py-4 rounded-full font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center space-x-2"
                 size="lg"
               >
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://soundcloud.com/andreas-foerster-140342719/kernoelbier" target="_blank" rel="noopener noreferrer">
                   <SiSoundcloud className="w-5 h-5" />
                   <span>Auf SoundCloud hören</span>
                 </a>
@@ -195,7 +195,7 @@ export default function Home() {
                 className="bg-gradient-to-r from-royal-purple-500 to-royal-purple-700 hover:from-royal-purple-600 hover:to-royal-purple-800 px-8 py-4 rounded-full font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center space-x-2"
                 size="lg"
               >
-                <a href="audio/test.mp3" download="König vom Burgenland - Artist Andrelele.mp3">
+                <a href="audio/kernoelbier.mp3" download="König vom Burgenland - Artist Andrelele.mp3">
                   <Download className="w-5 h-5" />
                   <span>Direkt downloaden</span>
                 </a>
@@ -277,7 +277,7 @@ export default function Home() {
                   asChild
                   className="bg-gradient-to-r from-royal-green-400 to-royal-green-600 hover:from-royal-green-500 hover:to-royal-green-700 px-8 py-4 rounded-full font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
                 >
-                  <a href="audio/test.mp3" download="König vom Burgenland - Artist Andrelele.mp3">
+                  <a href="audio/kernoelbier.mp3" download="König vom Burgenland - Artist Andrelele.mp3">
                     <Music className="w-5 h-5" />
                     <span>MP3 (320kbps)</span>
                   </a>
@@ -286,7 +286,7 @@ export default function Home() {
                   asChild
                   className="bg-gradient-to-r from-royal-purple-500 to-royal-purple-700 hover:from-royal-purple-600 hover:to-royal-purple-800 px-8 py-4 rounded-full font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
                 >
-                  <a href="audio/test.mp3" download="König vom Burgenland - Artist Andrelele - FLAC.mp3">
+                  <a href="audio/kernoelbier.mp3" download="König vom Burgenland - Artist Andrelele - FLAC.mp3">
                     <Crown className="w-5 h-5" />
                     <span>FLAC (Lossless)</span>
                   </a>
@@ -320,7 +320,7 @@ export default function Home() {
               <a href="#" className="text-royal-gold hover:text-white text-2xl transition-colors">
                 <SiTiktok />
               </a>
-              <a href="#" className="text-royal-gold hover:text-white text-2xl transition-colors">
+              <a href="https://soundcloud.com/andreas-foerster-140342719/kernoelbier" className="text-royal-gold hover:text-white text-2xl transition-colors">
                 <SiSoundcloud />
               </a>
             </div>
