@@ -107,7 +107,7 @@ export default function Home() {
             <div className="w-10 h-10 bg-royal-gold rounded-full flex items-center justify-center">
               <Crown className="text-royal-purple-900 w-5 h-5" />
             </div>
-            <span className="font-royal text-xl font-bold text-royal-gold">Andrelele</span>
+            <span className="font-royal text-xl font-bold text-royal-gold">Andreas Förster</span>
           </div>
           <div className="hidden md:flex space-x-6">
             <button 
@@ -172,7 +172,7 @@ export default function Home() {
               König vom Burgenland
             </h1>
             <h2 className="font-royal text-2xl md:text-3xl font-semibold text-royal-gold mb-8">
-              Artist Andrelele
+              Artist Andreas Förster
             </h2>
 
             {/* Music Player */}
@@ -195,7 +195,7 @@ export default function Home() {
                 className="bg-gradient-to-r from-royal-purple-500 to-royal-purple-700 hover:from-royal-purple-600 hover:to-royal-purple-800 px-8 py-4 rounded-full font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center space-x-2"
                 size="lg"
               >
-                <a href="audio/kernoelbier.mp3" download="König vom Burgenland - Artist Andrelele.mp3">
+                <a href="audio/kernoelbier.mp3" download="König vom Burgenland - Artist Andreas Förster.mp3">
                   <Download className="w-5 h-5" />
                   <span>Direkt downloaden</span>
                 </a>
@@ -214,7 +214,7 @@ export default function Home() {
               Königliche Erfolge
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              Die legendären Fähigkeiten, die Artist Andrelele zum wahren König vom Burgenland machen
+              Die legendären Fähigkeiten, die Artist Andreas Förster zum wahren König vom Burgenland machen
             </p>
           </div>
 
@@ -277,7 +277,7 @@ export default function Home() {
                   asChild
                   className="bg-gradient-to-r from-royal-green-400 to-royal-green-600 hover:from-royal-green-500 hover:to-royal-green-700 px-8 py-4 rounded-full font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
                 >
-                  <a href="audio/kernoelbier.mp3" download="König vom Burgenland - Artist Andrelele.mp3">
+                  <a href="audio/kernoelbier.mp3" download="König vom Burgenland - Artist Andreas Förster.mp3">
                     <Music className="w-5 h-5" />
                     <span>MP3 (320kbps)</span>
                   </a>
@@ -286,7 +286,7 @@ export default function Home() {
                   asChild
                   className="bg-gradient-to-r from-royal-purple-500 to-royal-purple-700 hover:from-royal-purple-600 hover:to-royal-purple-800 px-8 py-4 rounded-full font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
                 >
-                  <a href="audio/kernoelbier.mp3" download="König vom Burgenland - Artist Andrelele - FLAC.mp3">
+                  <a href="audio/kernoelbier.mp3" download="König vom Burgenland - Artist Andreas Förster - FLAC.mp3">
                     <Crown className="w-5 h-5" />
                     <span>FLAC (Lossless)</span>
                   </a>
@@ -306,7 +306,7 @@ export default function Home() {
               <div className="w-12 h-12 bg-royal-gold rounded-full flex items-center justify-center">
                 <Crown className="text-royal-purple-900 w-6 h-6" />
               </div>
-              <span className="font-royal text-2xl font-bold text-royal-gold">Artist Andrelele</span>
+              <span className="font-royal text-2xl font-bold text-royal-gold">Artist Andreas Förster</span>
             </div>
 
             {/* Social Links */}
@@ -328,7 +328,7 @@ export default function Home() {
             {/* Copyright */}
             <div className="border-t border-royal-gold/30 pt-6">
               <p className="text-gray-300">
-                © 2024 Artist Andrelele. Alle Rechte vorbehalten. 
+                © 2024 Artist Andreas Förster. Alle Rechte vorbehalten. 
                 <span className="text-royal-gold"> König vom Burgenland</span> - Ein königliches Meisterwerk.
               </p>
             </div>
