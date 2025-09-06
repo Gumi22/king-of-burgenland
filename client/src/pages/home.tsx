@@ -1,5 +1,5 @@
 import { Crown, Music, Tractor, Beer, Mountain, Heart, Medal, Headphones, Download, Play, Volume2 } from "lucide-react";
-import { SiSoundcloud, SiSpotify, SiApplemusic, SiYoutube, SiInstagram, SiFacebook, SiTiktok } from "react-icons/si";
+import { SiSoundcloud, SiSpotify, SiApplemusic, SiYoutube, SiInstagram, SiTiktok } from "react-icons/si";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import MusicPlayer from "@/components/ui/music-player";
@@ -57,7 +57,7 @@ const streamingPlatforms = [
     icon: SiSoundcloud,
     color: "from-orange-500 to-orange-600",
     hoverColor: "hover:from-orange-600 hover:to-orange-700",
-    url: "https://soundcloud.com/andreas-foerster-140342719/kernoelbier"
+    url: "https://soundcloud.com/andreas-foerster-140342719/sets/konig-des-burgenlands"
   },
   {
     name: "Spotify",
@@ -185,7 +185,7 @@ export default function Home() {
                 className="bg-gradient-to-r from-royal-green-400 to-royal-green-600 hover:from-royal-green-500 hover:to-royal-green-700 px-8 py-4 rounded-full font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center space-x-2"
                 size="lg"
               >
-                <a href="https://soundcloud.com/andreas-foerster-140342719/kernoelbier" target="_blank" rel="noopener noreferrer">
+                <a href="https://soundcloud.com/andreas-foerster-140342719/sets/konig-des-burgenlands" target="_blank" rel="noopener noreferrer">
                   <SiSoundcloud className="w-5 h-5" />
                   <span>Auf SoundCloud hören</span>
                 </a>
@@ -195,7 +195,7 @@ export default function Home() {
                 className="bg-gradient-to-r from-royal-purple-500 to-royal-purple-700 hover:from-royal-purple-600 hover:to-royal-purple-800 px-8 py-4 rounded-full font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center space-x-2"
                 size="lg"
               >
-                <a href="audio/kernoelbier.mp3" download="König vom Burgenland - Artist Andreas Förster.mp3">
+                <a href="audio/kernoelbier.mp3" download="Kernölbier.mp3">
                   <Download className="w-5 h-5" />
                   <span>Direkt downloaden</span>
                 </a>
@@ -270,7 +270,7 @@ export default function Home() {
                 <Download className="w-6 h-6" />
                 Direkter Download
               </h3>
-              <p className="text-gray-300 mb-6">Lade "König vom Burgenland" in höchster Qualität herunter</p>
+              <p className="text-gray-300 mb-6">Lade "Kernölbier", oder das ganze Album in höchster Qualität herunter</p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 
@@ -286,9 +286,9 @@ export default function Home() {
                   asChild
                   className="bg-gradient-to-r from-royal-purple-500 to-royal-purple-700 hover:from-royal-purple-600 hover:to-royal-purple-800 px-8 py-4 rounded-full font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
                 >
-                  <a href="audio/kernoelbier.mp3" download="König vom Burgenland - Artist Andreas Förster - FLAC.mp3">
+                  <a href="audio/album.zip" download="König vom Burgenland - Andreas Förster.zip">
                     <Crown className="w-5 h-5" />
-                    <span>FLAC (Lossless)</span>
+                    <span>Ganzes Album (zip)</span>
                   </a>
                 </Button>
               </div>
@@ -311,17 +311,17 @@ export default function Home() {
 
             {/* Social Links */}
             <div className="flex justify-center space-x-6 mb-8">
-              <a href="#" className="text-royal-gold hover:text-white text-2xl transition-colors">
+              <a href="https://www.youtube.com/watch?v=9z7tX8YURW0" className="text-royal-gold hover:text-white text-2xl transition-colors">
+                <SiYoutube />
+              </a>
+              <a href="https://soundcloud.com/andreas-foerster-140342719" className="text-royal-gold hover:text-white text-2xl transition-colors">
+                <SiSoundcloud />
+              </a>
+              <a href="https://www.instagram.com/rick_astley_memes/reel/C0C1cJnpP7F/" className="text-royal-gold hover:text-white text-2xl transition-colors">
                 <SiInstagram />
               </a>
-              <a href="#" className="text-royal-gold hover:text-white text-2xl transition-colors">
-                <SiFacebook />
-              </a>
-              <a href="#" className="text-royal-gold hover:text-white text-2xl transition-colors">
+              <a href="https://www.tiktok.com/@yourlocalmemer71/video/7296617674409282859" className="text-royal-gold hover:text-white text-2xl transition-colors">
                 <SiTiktok />
-              </a>
-              <a href="https://soundcloud.com/andreas-foerster-140342719/kernoelbier" className="text-royal-gold hover:text-white text-2xl transition-colors">
-                <SiSoundcloud />
               </a>
             </div>
 

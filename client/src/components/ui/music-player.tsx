@@ -69,6 +69,9 @@ export default function MusicPlayer() {
         preload="metadata"
       />
       <div className="flex items-center space-x-4">
+        <h4 className="font-royal text-2xl md:text-3xl font-semibold text-royal-gold mb-8">
+              Kernölbier
+        </h4>
         <Button
           onClick={togglePlay}
           className="w-16 h-16 bg-gradient-to-r from-royal-green-400 to-royal-purple-500 rounded-full flex items-center justify-center hover:scale-110 transition-transform border-0 p-0"
