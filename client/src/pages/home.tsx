@@ -78,7 +78,7 @@ const streamingPlatforms = [
     icon: SiYoutube,
     color: "from-red-600 to-red-700",
     hoverColor: "hover:from-red-700 hover:to-red-800",
-    url: "#"
+    url: "https://www.youtube.com/watch?v=9z7tX8YURW0&list=PLNdK94c53aoM3SICQu2Mr36UJYX2aTvpE"
   }
 ];
 
@@ -311,7 +311,7 @@ export default function Home() {
 
             {/* Social Links */}
             <div className="flex justify-center space-x-6 mb-8">
-              <a href="https://www.youtube.com/watch?v=9z7tX8YURW0" className="text-royal-gold hover:text-white text-2xl transition-colors">
+              <a href="https://www.youtube.com/channel/UCTm_CNqYEooGV-8IkmdZsAA" className="text-royal-gold hover:text-white text-2xl transition-colors">
                 <SiYoutube />
               </a>
               <a href="https://soundcloud.com/andreas-foerster-140342719" className="text-royal-gold hover:text-white text-2xl transition-colors">
