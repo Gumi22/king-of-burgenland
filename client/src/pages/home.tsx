@@ -60,20 +60,6 @@ const streamingPlatforms = [
     url: "https://soundcloud.com/andreas-foerster-140342719/sets/konig-des-burgenlands"
   },
   {
-    name: "Spotify",
-    icon: SiSpotify,
-    color: "from-green-500 to-green-600",
-    hoverColor: "hover:from-green-600 hover:to-green-700",
-    url: "#"
-  },
-  {
-    name: "Apple Music",
-    icon: SiApplemusic,
-    color: "from-gray-800 to-gray-900",
-    hoverColor: "hover:from-gray-700 hover:to-gray-800",
-    url: "#"
-  },
-  {
     name: "YouTube",
     icon: SiYoutube,
     color: "from-red-600 to-red-700",

@@ -1,6 +1,6 @@
 # Overview
 
-This is a music artist website for "König vom Burgenland" by Artist Andrelele, built as a full-stack web application. The site features a royal-themed design with green and purple colors, showcasing the artist's music track with streaming platform links, achievement cards highlighting the artist's legendary skills, and an interactive music player. The application uses a modern React frontend with a Node.js/Express backend and PostgreSQL database for future extensibility.
+This is a music artist website for "König vom Burgenland" by Artist Andreas Förster, built as a full-stack web application. The site features a royal-themed design with green and purple colors, showcasing the artist's music track with streaming platform links, achievement cards highlighting the artist's legendary skills, and an interactive music player. The application uses a modern React frontend with a Node.js/Express backend and PostgreSQL database for future extensibility.
 
 # User Preferences
 
